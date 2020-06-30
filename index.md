@@ -141,6 +141,8 @@ Now it’s time to make a header name for your website. If you don’t, your web
   
 To view your website, type your repository name into the address bar (in my case, [http://segbeyondlaw.github.io](http://segregationbeyondlaw.github.io)).
 
+![](screencapture.png)
+
 
  
   
