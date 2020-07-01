@@ -41,7 +41,7 @@ Once you’ve chosen a unique domain name, you’re ready to get started. Here, 
 
 Go to [github.com](github.com) and create an account. Under ```Username``` write the name of you name website domain you will be creating. My example username will be ```segbeyondlaw``` and the address for the site I set up will be [http://segbeyondlaw.github.io](http://segregationbeyondlaw.github.io). 
 
-### common mistake 
+#### common mistake 
 Note that your username must be the same name as the domain you're using for your website. For example, if I make my username 
 ```crazycatlady```, then even if I later try and name my website [http://segbeyondlaw.github.io](segregationbeyondlaw.github.io), it will add your username: [crazycatlady/segbeyondlaw.github.io](crazycatlady/segregationbeyondlaw.github.io). This is bad for two reasons: 
 
