@@ -298,7 +298,6 @@ Markdown:
 
 ```
 ---
-
 ```
 
 Browser:
@@ -312,8 +311,7 @@ If webpages were meals, emojis might be the dessert; They aren't exactly essenti
 
 ```
 plugins:
-  - jemoji
-  
+  - jemoji  
 ```
 
 If you want a nice reference guide, check out this [list of supported emojis](https://gist.github.com/rxaviers/7360908). You can copy and paste the emoji, or enter the code. ```:smiley:``` for example produces :smiley:
