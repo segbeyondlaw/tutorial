@@ -304,6 +304,11 @@ Browser:
 
 ### 10 Emojis!
 
-If webpages were meals, emojis might be the dessert; They aren't exactly essential, but they sure can make your webpage more fun. GitHub's version of markdown supports most emojis. If you want a nice reference guide, check out this [list of supported emojis](https://gist.github.com/rxaviers/7360908).
+If webpages were meals, emojis might be the dessert; They aren't exactly essential, but they sure can make your webpage more fun. GitHub's version of markdown supports most emojis. To enable emojis, you need to first add the following line to your _config.yml file:
 
-You can copy and paste the emoji, or enter the code. ```:smiley:``` for example produces :smiley:
+```
+plugins:
+  - jemoji
+```
+
+If you want a nice reference guide, check out this [list of supported emojis](https://gist.github.com/rxaviers/7360908). You can copy and paste the emoji, or enter the code. ```:smiley:``` for example produces :smiley:
