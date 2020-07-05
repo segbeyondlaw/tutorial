@@ -251,21 +251,21 @@ The result:
 
 Now, we did this on our index file, but we need to still create the markdown files we’re linking to! This is quite simple. In your repo, simply create a new file. For instance, in my case I’d start with making `lasting-disparities.md`.
 
-**GIF**
+![](linking_pages.gif)
 
 Put in some sample text and commit your changes. Now, refresh your webpage, in my case [segbeyondlaw.github.io](http://segbeyondlaw.github.io). If you click on **"Lasting Disparities"**, it directs me to the page I just created.
 
-**GIF**
+![](navigating_website.gif)
 
 ### 7. Inserting Images:
 
 There are two ways you can insert images - from the web or files you’ve uploaded to GitHub. To upload photos to GitHub, select **"Upload Files"** under **"Add File"** at the top of your repo homepage - then you can either drag or select your image files to upload. In this example, I chose to upload a screenshot from the [segbeyondlaw.github.io](http://segbeyondlaw.github.io) website. It takes a few moments for it to load - just hang tight. Once it’s uploaded, you should automatically be redirected to the homepage of your repo.
 
-**GIF**
+![](upload_image.gif)
 
 Now let’s practice inserting an image into a markdown file. Open the file called **index.md** that we created in the last tutorial. Now, to insert an image type `![](imagefilename)`. For instance, in my case I typed `![](screencapture.png)`.
 
-**GIF**
+![](insert_image.gif)
 
 **Protip:** You can also insert a description of your image in the brackets. This way, there is a placeholder for the image while it loads, or if there is an error with it loading, you will know you need to edit the image link. For instance, I could type `![screen capture](screencapture.png)`
 
