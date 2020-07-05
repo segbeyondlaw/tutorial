@@ -33,7 +33,7 @@ In fact, markdown gets turned into an HTML file to be viewed on Github pages, bu
 
 Here’s a summary of how markdown, Jekyll, and Github work together to give you a nice looking final product:
 
-**IMAGE GOES HERE**
+![](Markdown_flow.jpg)
 
 If you are ready to improve your Markdown files, that’s what we hope to help you with! You may have just set up a site with a title, subtitle, and text. This means you already have learned Markdown! That’s a good start, but you’re going to want to know how to up your game a bit for an effective website to advertise your cause.
 
