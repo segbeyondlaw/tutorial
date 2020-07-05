@@ -196,7 +196,7 @@ Relative links connect content from one page to another. Most websites have thes
 
 **Browser:**
 
-[Lasting Disparities](lasting-disparities.md)
+[Lasting Disparities](https://github.com/segbeyondlaw/segbeyondlaw.github.io/blob/master/lasting-disparities.md)
 
 
 ### Web Links:
@@ -243,11 +243,9 @@ Finally, let’s distinguish the main category from the subcategories by bolding
 ```
 
 The result:
-
-- [**Lasting Disparities**](lasting-disparities.md)
-  - [Suppressed Homeownership](supressed-homeownership.md)
-  - [Unequal Opportunities](unequal-opportunities.md)
-  
+- [**Lasting Disparities**](https://github.com/segbeyondlaw/segbeyondlaw.github.io/blob/master/lasting-disparities.md)
+  - [Suppressed Homeownership](https://github.com/segbeyondlaw/segbeyondlaw.github.io/blob/master/supressed-homeownership.md)
+  - [Unequal Opportunities](https://github.com/segbeyondlaw/segbeyondlaw.github.io/blob/master/unequal-opportunities.md)
 
 Now, we did this on our index file, but we need to still create the markdown files we’re linking to! This is quite simple. In your repo, simply create a new file. For instance, in my case I’d start with making `lasting-disparities.md`.
 
