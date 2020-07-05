@@ -296,7 +296,10 @@ Want a vertical line to break things up a bit? It's easy enough! just add 3 dash
 
 Markdown:
 
-```---```
+```
+---
+
+```
 
 Browser:
 
