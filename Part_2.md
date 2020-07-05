@@ -186,18 +186,6 @@ Unfortunately, there is no built in way to underline in markdown. Luckily, remem
 
 ## 5. Links:
 
-### Relative Links:
-
-Relative links connect content from one page to another. Most websites have these - if you are on the home page and click an article that’s elsewhere on the website, that’s a relative link. It’s real simple to create these.
-
-**Markdown:**
-
-`[Lasting Disparities](lasting-disparities.md)`
-
-**Browser:**
-
-[Lasting Disparities](https://github.com/segbeyondlaw/segbeyondlaw.github.io/blob/master/lasting-disparities.md)
-
 
 ### Web Links:
 
@@ -211,10 +199,22 @@ Web links will take you to an external site. They follow the same general format
 
 [Mapping Prejudice](https://www.mappingprejudice.org/index.html)
 
+### Relative Links:
+
+Relative links connect content from one page to another. Most websites have these - if you are on the home page and click an article that’s elsewhere on the website, that’s a relative link. It’s real simple to create these. Now if I am in the repository https://github.com/segbeyondlaw/segbeyondlaw.github.io, I can just specify the file names I want to include to connect the current page to. In the next part, we will go through how pages connect more in depth. For now, just understand how to connect one page to another:
+
+**Markdown:**
+
+`[Lasting Disparities](lasting-disparities.md)`
+
+**Browser:**
+
+[Lasting Disparities](https://github.com/segbeyondlaw/segbeyondlaw.github.io/blob/master/lasting-disparities.md)
+
 
 ## 6. Putting things together (an example of page navigation):
 
-In this example, we will show how we created part of our table of contents, taken from [segbeyondlaw.github.io](http://segbeyondlaw.github.io).
+In this example, we will show how we created part of our table of contents, taken from [segbeyondlaw.github.io](http://segbeyondlaw.github.io). 
 
 First, we create an unordered list:
 
@@ -226,7 +226,7 @@ First, we create an unordered list:
   - Unequal Opportunities
 ```
 
-Next, we want to make each item into relative links:
+Next, we want to make each item into relative links. Now, remember I am in the the repo https://github.com/segbeyondlaw/segbeyondlaw.github.io, so the file names are simply the names of other Markdown (.md) files I have in my repo. 
 
 ```
 - [Lasting Disparities](lasting-disparities.md)
@@ -255,6 +255,8 @@ Put in some sample text and commit your changes. Now, refresh your webpage, in m
 
 ![](navigating_website.gif)
 
+> **Protip** In this example, all my subpages are in the same general repo. However, let's say I made a file to put all my subpages in called ```subpages```. If I  were to try and link a page from ```subpages``` in my homepage ```index.md``` , than I would need to give the path- in this example ```subpages/lasting-disparities.md```. Why would I want seperate folder? For the same reason I want folders on my computer- organization. 
+
 ### 7. Inserting Images:
 
 There are two ways you can insert images - from the web or files you’ve uploaded to GitHub. To upload photos to GitHub, select **"Upload Files"** under **"Add File"** at the top of your repo homepage - then you can either drag or select your image files to upload. In this example, I chose to upload a screenshot from the [segbeyondlaw.github.io](http://segbeyondlaw.github.io) website. It takes a few moments for it to load - just hang tight. Once it’s uploaded, you should automatically be redirected to the homepage of your repo.
@@ -265,7 +267,7 @@ Now let’s practice inserting an image into a markdown file. Open the file call
 
 ![](insert_image.gif)
 
-**Protip:** You can also insert a description of your image in the brackets. This way, there is a placeholder for the image while it loads, or if there is an error with it loading, you will know you need to edit the image link. For instance, I could type `![screen capture](screencapture.png)`
+> **Protip:** You can also insert a description of your image in the brackets. This way, there is a placeholder for the image while it loads, or if there is an error with it loading, you will know you need to edit the image link. For instance, I could type `![screen capture](screencapture.png)`
 
 ### 8. Tables
 
@@ -287,3 +289,21 @@ It can be a quite tedious process, so I **highly recommend** using this [table g
 |------|------------------|--------------------------|
 | Year | 1948             | 1953                     |
 
+
+### 9. Vertical lines
+
+Want a vertical line to break things up a bit? It's easy enough! just add 3 dash signs (---) or more
+
+Markdown:
+
+```---```
+
+Browser:
+
+---
+
+### 10 Emojis!
+
+If webpages were meals, emojis might be the dessert; They aren't exactly essential, but they sure can make your webpage more fun. GitHub's version of markdown supports most emojis. If you want a nice reference guide, check out this [list of supported emojis](https://gist.github.com/rxaviers/7360908).
+
+You can copy and paste the emoji, or enter the code. ```:smiley:``` for example produces :smiley:
